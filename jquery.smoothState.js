@@ -8,6 +8,7 @@
  * @see     https://github.com/miguel-perez/jquery.smoothState.js
  * 
  */
+ document.addEventListener('deviceready', function() {
 ;(function ( $, window, document, undefined ) {
     "use strict";
 
@@ -566,3 +567,4 @@
     $.fn.smoothState = declareSmoothState;
 
 })(jQuery, window, document);
+});
